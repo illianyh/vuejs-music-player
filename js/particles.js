@@ -56,14 +56,6 @@ function init() {
 
   });
 
-  var planet = new THREE.Mesh(geom, mat);
-  planet.scale.x = planet.scale.y = planet.scale.z = 16;
-  // circle.add(planet);
-
-  var planet2 = new THREE.Mesh(geom2, mat2);
-  planet2.scale.x = planet2.scale.y = planet2.scale.z = 10;
-  // skelet.add(planet2);
-
   var ambientLight = new THREE.AmbientLight(0x999999 );
   scene.add(ambientLight);
   
