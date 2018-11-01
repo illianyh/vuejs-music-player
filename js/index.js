@@ -17,30 +17,35 @@ var app = new Vue({
 			title: "Edie's Dream",
 			artist: "Suuns",
 			url: "mp3/ediesdream.mp3",
-			image: "mp3/img/suuns.jpg" },
+			image: "mp3/img/suuns.jpg",
+			duration: "4.20" },
 		{
 			title: "Redbone",
 			artist: "Childish Gambino",
 			url: "mp3/redbone.mp3",
-			image: "mp3/img/redbone.jpg" },
+			image: "mp3/img/redbone.jpg",
+			duration: "5.27" },
 
 		{
 			title: "In Dreams",
 			artist: "tomemitsu",
 			url: "mp3/indreams.mp3",
-			image: "mp3/img/indreams.jpg" },
+			image: "mp3/img/indreams.jpg",
+			duration: "4.06" },
 
 		{
 			title: "QACHINA",
 			artist: "Damien Jurado",
 			url: "mp3/QACHINA.mp3",
-			image: "mp3/img/qachina.jpg" },
+			image: "mp3/img/qachina.jpg",
+			duration: "3.48" },
 
 		{
 			title: "SICKO MODE",
 			artist: "Travis Scott",
 			url: "mp3/sickomode.mp3",
-			image: "mp3/img/sickomode.jpg" }],
+			image: "mp3/img/sickomode.jpg",
+			duration: "5.14" }],
 
 
 		audioFile: "" },
